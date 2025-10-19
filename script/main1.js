@@ -2,7 +2,7 @@
 // Birthday Countdown Lock
 // =======================
 window.addEventListener("load", () => {
-  const targetDate = new Date("October 24, 2025 00:00:00").getTime();
+  const targetDate = new Date("October 19, 2025 00:00:00").getTime();
   const now = new Date().getTime();
 
   if (now < targetDate) {
@@ -175,3 +175,4 @@ const animationTimeline = () => {
     tl.restart();
   });
 };
+
