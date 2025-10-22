@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
     countdownDiv.innerHTML = `
       <h1 style="font-size:2rem;margin-bottom:10px;">⏳ Surprise Unlocks In:</h1>
       <h2 id="countdown" style="font-size:2rem;color:#ff69b4;"></h2>
-      <p style="margin-top:15px;font-size:1rem;">Come back on 24th October :)</p>
+      <p style="margin-top:15px;font-size:1rem;">Come back on 24th October</p>
     `;
     document.body.appendChild(countdownDiv);
 
@@ -175,5 +175,6 @@ const animationTimeline = () => {
     tl.restart();
   });
 };
+
 
 
